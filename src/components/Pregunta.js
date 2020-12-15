@@ -25,7 +25,7 @@ const Pregunta = ({guardarPresupuesto, guardarRestante, actualizarPregunta}) => 
 
         guardarPresupuesto(cantidad);
         guardarRestante(cantidad);
-        actualizarPregunta(true);
+        actualizarPregunta(false);
     };
 
     return (
